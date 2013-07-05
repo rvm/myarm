@@ -300,15 +300,11 @@ function prepare()
 
 function usage()
 {
-  echo "Usage: $0 [prepare [URL [name]]|start [ssh|gui|console]|stop|status|wait_ssh|ssh|scp ...|usage]"
+  echo "Usage: $0 [prepare [URL [name]]|start [ssh|gui|console]|stop|status|ssh|scp ...|usage]"
   echo "For 'myarm scp' use 'pi@localhost' as the remote machine"
 }
 
 case "${1:-}" in
-  (wait_ssh)
-    load_dot_myarm
-    wait_for 60 ssh_image
-    ;;
   (start)
     load_dot_myarm
     shift
