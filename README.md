@@ -38,7 +38,7 @@ Create a new virtual machine based on Rasperry Pi image:
 - `URL`  - url to online image from http://downloads.raspberrypi.org/images/raspbian/
 - `name` - name of the virtual machine directory
 
-Both can be omitted and will b auto detected, use `""`(empty string) for `URL` if only name is important.
+Both can be omitted and will b auto detected, use `""`(empty string) for `URL` if only `name` is important.
 
 ### Start
 
