@@ -51,7 +51,7 @@ Few ways of starting are available:
 - `gui` - start in background with the GUI open to the machine,
 - `console` - start in forground with open console to the server.
 - with no parameter will just start in background,
-  you need to wait a bit for the machine to boot, it can take eve few minutes.
+  you need to wait a bit for the machine to boot, it can take even few minutes.
 
 ### Stop
 
