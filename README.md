@@ -38,7 +38,8 @@ Create a new virtual machine based on Rasperry Pi image:
 - `URL`  - url to online image from http://downloads.raspberrypi.org/images/raspbian/
 - `name` - name of the virtual machine directory
 
-Both can be omitted and will b auto detected, use `""`(empty string) for `URL` if only `name` is important.
+Both can be omitted and will b auto detected,
+use `""`(empty string) for `URL` if only `name` is important.
 
 ### Start
 
@@ -92,6 +93,10 @@ Only `IMAGE` is required, for rest defaults will be used if not set:
     PORT="5022"
     CPU="arm1176"
     RAM="256"
+
+List of available CPUs can be checked with `qemu-system-arm -cpu help`,
+only `arm1136-r2`, `arm1176`, `arm11mpcore` were tested with `myarm`,
+other CPUs might not work.
 
 ## Reporting problems
 
