@@ -76,7 +76,7 @@ Allow upload / download of files:
 
     myarm scp ...
 
-Use like standard scp, use 'pi@localhost' for the virtual machine
+Use like standard `scp`, use `pi@localhost` for the virtual machine
 
 ## Configuration files
 

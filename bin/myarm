@@ -339,6 +339,9 @@ case "${1:-}" in
   (usage)
     usage
     ;;
+  (version)
+    echo "myarm 1.0.0"
+    ;;
   (*)
     show_status
     usage
